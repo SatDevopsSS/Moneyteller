@@ -4,5 +4,5 @@ FROM node:18-alpine
 WORKDIR /app
 COPY . .
 RUN yarn install --production
-CMD ["node", "src/index.js"]
+CMD ["ip-172-31-19-238.us-west-2.compute.internal", "src/index.js"]
 EXPOSE 3000
